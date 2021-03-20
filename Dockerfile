@@ -8,6 +8,9 @@ RUN apt-get install -y git curl apache2 php5 libapache2-mod-php5 php5-mcrypt php
 RUN rm -rf /var/www/*
 ADD src /var/www
 
+RUN sudo mkdir -p /var/www/us && /
+    sudo echo "THIS IS USA PAGE inside /us folder" > /var/www/us/index.html
+
 # Configure apache
 RUN a2enmod rewrite
 RUN chown -R www-data:www-data /var/www
