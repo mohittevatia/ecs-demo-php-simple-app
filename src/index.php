@@ -15,7 +15,7 @@
     <body>
         <div class="container">
             <div class="hero-unit">
-                <h1>Amazon ECS Deep Dive</h1>
+                <h1>Amazon ECS Deep Dive - MOHIT EDITED IT</h1>
                 <h2>Version 1</h2>
                 <p>This application is now running on a container in Amazon ECS.</p>
                 <p>From here, you can commit a change to the Github repo. The CodePipeline will run and update the ECS cluster.</p>
